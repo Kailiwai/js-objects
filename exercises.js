@@ -48,8 +48,6 @@ var dog = {
 
 console.log("My dog " + dog.name + " is " + dog.age + " years old and likes to " + dog.speak + " at strangers.");
 
-
-
 //An empty object
 
 /*
@@ -64,6 +62,15 @@ console.log("My dog " + dog.name + " is " + dog.age + " years old and likes to "
             
   Console.log the object.
 */
+
+var kicks = {};
+kicks.brand = "Adidas";
+kicks.color = "black";
+kicks.size = 12;
+kicks.price = 75;
+kicks.buy = "Now I is a cool kid!";
+
+console.log(kicks);
 
 
 /* 
