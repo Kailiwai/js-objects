@@ -1,6 +1,7 @@
 /*
 Objects in Javascript can be compared to objects in real life. Objects has a collection of properties associated with it (known as key-value pairs) and are basically the same as ordinary variables.
 */ 
+console.log("test");
 
 //A literal object.
 
