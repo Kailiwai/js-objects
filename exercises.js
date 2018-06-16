@@ -300,15 +300,14 @@ console.log(printObj(sumObj));
  function putInPlainBox(obj) {
     for (var i = 0; i < 11; i++) {
         var randomNumber = Math.floor(Math.random()*10);
-        obj.contents.push(randomNumber);
+        obj.contents.push(randomNumber); //contents = array
     }
     return obj
 }
 var plainBoxResult = putInPlainBox(plainBox);
 console.log(plainBoxResult);
 
-//var plainBoxResult = 
-//console.log(putInPlainBox())
+ 
 /*
 11. Detecting transmission
     Declare a function named detectingTransmission and a single parameter which will be an object. Within this function 
@@ -319,6 +318,14 @@ console.log(plainBoxResult);
 
     Invoke your function and pass in your stockCar object, store the result to a variable named isAutomaticTransmission and use `console.log` to inspect your results.
  */
+function detectingTransmission(object) {
+    if (automaticTransmission = true) {
+        console.log("This car has an automatic transmission.")
+    }else{
+        console.log("This car has a standard transmission.")
+    }
+}
+detectingTransmission(stockCar);
 
 
 /*
