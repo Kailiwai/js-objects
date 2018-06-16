@@ -281,6 +281,10 @@ console.log(objectAddition(sumObj));
         Invoke this function and pass in your object. Further test by changing the values of the object being passed in or 
         **create more** objects and invoke your function multiple times.
  */
+function printObj(obj) {
+    return obj.a + " + " + obj.b + " = " + obj.result
+}
+console.log(printObj(sumObj));
 
 
 /*
@@ -293,7 +297,18 @@ console.log(objectAddition(sumObj));
         plainBoxResult and use `console.log` to inspect your results.
  */
 
+ function putInPlainBox(obj) {
+    for (var i = 0; i < 11; i++) {
+        var randomNumber = Math.floor(Math.random()*10);
+        obj.contents.push(randomNumber);
+    }
+    return obj
+}
+var plainBoxResult = putInPlainBox(plainBox);
+console.log(plainBoxResult);
 
+//var plainBoxResult = 
+//console.log(putInPlainBox())
 /*
 11. Detecting transmission
     Declare a function named detectingTransmission and a single parameter which will be an object. Within this function 
